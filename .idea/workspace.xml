@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adea66a-75f6-4def-96e0-3b4d0e525fe1" name="Changes" comment="1st">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PassValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PassValidTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7adea66a-75f6-4def-96e0-3b4d0e525fe1" name="Changes" comment="better code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +40,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PassValid">
+  <component name="RunManager" selected="JUnit.PassValidTest">
     <configuration name="PassValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PassValid" />
       <module name="hh-java22-2week1-day5" />
@@ -64,8 +59,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PassValid" />
         <item itemvalue="JUnit.PassValidTest" />
+        <item itemvalue="Application.PassValid" />
       </list>
     </recent_temporary>
   </component>
@@ -77,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662105702401</updated>
-      <workItem from="1662105703672" duration="8184000" />
+      <workItem from="1662105703672" duration="13889000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1662105758583</created>
@@ -93,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662105810130</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Password validation">
+      <created>1662360524733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662360524733</updated>
+    </task>
+    <task id="LOCAL-00004" summary="better code">
+      <created>1662365453888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662365453888</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st" />
+    <MESSAGE value="Password validation" />
+    <MESSAGE value="better code" />
+    <option name="LAST_COMMIT_MESSAGE" value="better code" />
   </component>
 </project>

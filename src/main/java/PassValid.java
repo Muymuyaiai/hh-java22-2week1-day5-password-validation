@@ -41,9 +41,8 @@ public class PassValid {
      * @return true if contains numbers else false
      */
     public static boolean containsDigits(String s){
-        char[] arr = s.toCharArray();
-        for (char c : arr){
-            if (Character.isDigit(s.charAt(c)))
+        for (int i = 0;i < s.length(); i++){
+            if (Character.isDigit(s.charAt(i)))
                 return true;
         }
         return false;
