@@ -26,17 +26,25 @@ public class PassValid {
         return passLength(s)&&containsDigits(s)&&containsUpper(s)&&containsLower(s)&&!containsBadWord(s);
     }
 
+    /**
+     * Checks if string length has at least 8 characters
+     * @param s string to be checked
+     * @return true if length >= 8 else false
+     */
     public static boolean passLength(String s){
         return (s.length() >= 8);
     }
 
+    /**
+     * Checks if string contains at least one digit
+     * @param s string to be checked
+     * @return true if contains numbers else false
+     */
     public static boolean containsDigits(String s){
         char[] arr = s.toCharArray();
-        boolean b = false;
-        for (int i = 0;i < arr.length; i++){
-            if (Character.isDigit(s.charAt(i)))
+        for (char c : arr){
+            if (Character.isDigit(s.charAt(c)))
                 return true;
-
         }
         return false;
     }
