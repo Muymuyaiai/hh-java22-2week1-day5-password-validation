@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class PassValid {
+    public static String[] forbiddenWords = {"Passwort1", "Abc123456", "qwerty"};
 
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
@@ -17,13 +18,13 @@ public class PassValid {
                 System.out.println("The password must contain at least one capital letter");
             if (!containsLower(s))
                 System.out.println("The password must contain at least one lowercase letter");
-            if (containsBadWord(s))
+            if (containsForbiddenWord(s))
                 System.out.println("The password contains a forbidden word");
         }
 
     }
     public static boolean passValid(String s){
-        return passLength(s)&&containsDigits(s)&&containsUpper(s)&&containsLower(s)&&!containsBadWord(s);
+        return passLength(s)&&containsDigits(s)&&containsUpper(s)&&containsLower(s)&&!containsForbiddenWord(s);
     }
 
     public static boolean passLength(String s){
@@ -31,35 +32,26 @@ public class PassValid {
     }
 
     public static boolean containsDigits(String s){
-        for (char c : s.toCharArray()){
-            if (Character.isDigit(c))
-                return true;
-        }
+        for (char c : s.toCharArray())
+            if (Character.isDigit(c)) return true;
         return false;
     }
 
     public static boolean containsUpper(String s){
-        for (char c : s.toCharArray()){
-            if (Character.isUpperCase(c))
-                return true;
-        }
+        for (char c : s.toCharArray())
+            if (Character.isUpperCase(c)) return true;
         return false;
     }
 
     public static boolean containsLower(String s){
-        for (char c : s.toCharArray()){
-            if (Character.isLowerCase(c))
-                return true;
-        }
+        for (char c : s.toCharArray())
+            if (Character.isLowerCase(c)) return true;
         return false;
     }
 
-    public static boolean containsBadWord(String s){
-        String[] arr = {"Passwort1", "Abc123456", "qwerty"};
-        for (String st : arr){
-            if (s.contains(st))
-                return true;
-        }
+    public static boolean containsForbiddenWord(String s){
+        for (String st : forbiddenWords)
+            if (s.contains(st)) return true;
         return false;
     }
 }

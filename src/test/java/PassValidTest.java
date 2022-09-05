@@ -63,16 +63,16 @@ public class PassValidTest {
     }
 
     @Test
-    void containsBadWordTrue (){
+    void containsForbiddenWordTrue (){
         String s = "It's so qwerty";
-        boolean actual = PassValid.containsBadWord(s);
+        boolean actual = PassValid.containsForbiddenWord(s);
         assertTrue(actual);
     }
 
     @Test
-    void containsBadWordFalse (){
+    void containsForbiddenWordFalse (){
         String s = "oihj4234ja";
-        boolean actual = !PassValid.containsBadWord(s);
+        boolean actual = !PassValid.containsForbiddenWord(s);
         assertTrue(actual);
     }
 }
