@@ -32,7 +32,7 @@ public class PassValid {
 
     public static boolean containsDigits(String s){
         for (char c : s.toCharArray()){
-            if (Character.isDigit(s.charAt(c)))
+            if (Character.isDigit(c))
                 return true;
         }
         return false;
@@ -40,7 +40,7 @@ public class PassValid {
 
     public static boolean containsUpper(String s){
         for (char c : s.toCharArray()){
-            if (Character.isUpperCase(s.charAt(c)))
+            if (Character.isUpperCase(c))
                 return true;
         }
         return false;
@@ -48,7 +48,7 @@ public class PassValid {
 
     public static boolean containsLower(String s){
         for (char c : s.toCharArray()){
-            if (Character.isLowerCase(s.charAt(c)))
+            if (Character.isLowerCase(c))
                 return true;
         }
         return false;

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adea66a-75f6-4def-96e0-3b4d0e525fe1" name="Changes" comment="better code" />
+    <list default="true" id="7adea66a-75f6-4def-96e0-3b4d0e525fe1" name="Changes" comment="For to for each" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662105702401</updated>
-      <workItem from="1662105703672" duration="13889000" />
+      <workItem from="1662105703672" duration="15191000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1662105758583</created>
@@ -102,7 +102,35 @@
       <option name="project" value="LOCAL" />
       <updated>1662365453888</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed char array">
+      <created>1662365645934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662365645934</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removed char array">
+      <created>1662365974537</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662365974538</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Removed char array">
+      <created>1662366017903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662366017903</updated>
+    </task>
+    <task id="LOCAL-00008" summary="For to for each">
+      <created>1662366760164</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662366760164</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +151,8 @@
     <MESSAGE value="1st" />
     <MESSAGE value="Password validation" />
     <MESSAGE value="better code" />
-    <option name="LAST_COMMIT_MESSAGE" value="better code" />
+    <MESSAGE value="Removed char array" />
+    <MESSAGE value="For to for each" />
+    <option name="LAST_COMMIT_MESSAGE" value="For to for each" />
   </component>
 </project>
