@@ -31,24 +31,24 @@ public class PassValid {
     }
 
     public static boolean containsDigits(String s){
-        for (int i = 0;i < s.length(); i++){
-            if (Character.isDigit(s.charAt(i)))
+        for (char c : s.toCharArray()){
+            if (Character.isDigit(s.charAt(c)))
                 return true;
         }
         return false;
     }
 
     public static boolean containsUpper(String s){
-        for (int i = 0;i < s.length(); i++){
-            if (Character.isUpperCase(s.charAt(i)))
+        for (char c : s.toCharArray()){
+            if (Character.isUpperCase(s.charAt(c)))
                 return true;
         }
         return false;
     }
 
     public static boolean containsLower(String s){
-        for (int i = 0;i < s.length(); i++){
-            if (Character.isLowerCase(s.charAt(i)))
+        for (char c : s.toCharArray()){
+            if (Character.isLowerCase(s.charAt(c)))
                 return true;
         }
         return false;
@@ -56,8 +56,8 @@ public class PassValid {
 
     public static boolean containsBadWord(String s){
         String[] arr = {"Passwort1", "Abc123456", "qwerty"};
-        for (int i = 0;i < arr.length; i++){
-            if (s.contains(arr[i]))
+        for (String st : arr){
+            if (s.contains(st))
                 return true;
         }
         return false;
