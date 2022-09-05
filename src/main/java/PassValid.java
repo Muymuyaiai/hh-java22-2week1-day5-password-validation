@@ -49,8 +49,7 @@ public class PassValid {
     }
 
     public static boolean containsUpper(String s){
-        char[] arr = s.toCharArray();
-        for (int i = 0;i < arr.length; i++){
+        for (int i = 0;i < s.length(); i++){
             if (Character.isUpperCase(s.charAt(i)))
                 return true;
         }
@@ -58,8 +57,7 @@ public class PassValid {
     }
 
     public static boolean containsLower(String s){
-        char[] arr = s.toCharArray();
-        for (int i = 0;i < arr.length; i++){
+        for (int i = 0;i < s.length(); i++){
             if (Character.isLowerCase(s.charAt(i)))
                 return true;
         }
